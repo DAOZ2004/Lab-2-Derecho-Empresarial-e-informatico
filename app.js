@@ -58,7 +58,7 @@ function calculate() {
     indemnity,
     dayOvertime: dayHours * hourlySalary * 2,
     nightOvertime: nightHours * hourlySalary * 2 * 1.25,
-    holiday: holidayDays * dailySalary,
+    holiday: holidayDays * dailySalary * 2,
     rest: restDays * dailySalary * 1.5
   };
   for (const key of Object.keys(results)) {
